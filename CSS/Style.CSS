@@ -1,0 +1,328 @@
+body {
+    margin: 0;
+    font-family: Playfair Display; 
+  }
+
+h1 { font-size: 72px;
+     color: #616057;}
+
+h2 { font-size: 40px;
+      color: #616057}
+h3 { font-size: 22px;
+     color:#616057;
+}
+
+h4 { font-size: 18px;}
+
+p { 
+    font-family: Avenir Light;
+    font-size: 15px;
+    line-height: 1.5;
+}
+  header {
+    background-color: #F0EBDE;
+    padding: 15px;
+  }
+
+  header li {
+    display: inline-block;
+    padding: 0px 5px;
+    position: relative; 
+    left: 40%;
+
+  }
+ 
+  
+  .heroImg {  /*top Section*/
+    background-color: #F7F5EF;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 100px;
+ 
+ }
+
+     .maggiePatel {  /*Image of Me*/
+         order: 1;
+}
+  
+    .content {    /*Hello I'm Maggie Patel content*/
+     width: 35%;
+    line-height: 1.3;
+  
+  }
+
+
+
+  /* ABOUT ME Section*/
+
+  #Container {
+    top: 0; 
+    left: 0; 
+    background-color: #F0EBDE;
+  }
+
+  .colorfulImg {
+position: relative; 
+top: 0;
+left: 20%;
+
+
+padding: 100px;
+
+  }
+
+  .AboutmeBox {
+    border: 1px solid black;
+    width: 30%;
+    position: absolute;
+    top: 1100px;
+    left: 40%;
+    background-color:#F7F5EF;
+    padding: 50px;
+
+  }
+
+  /*PROJECT SECTION*/
+  
+#row {
+    background-color: #F7F5EF;
+}
+
+#myprojectsHeading{
+  color: #666;
+  padding-top: 75px;
+
+  text-align: center;
+}
+
+.flex {   /*Parent Container for projectCard and flex items for Skills flex items*/
+  display: flex;
+  align-items: flex-start;
+  padding: 10px 70px;
+  justify-content: center;
+}
+
+  .projectCard {    /*flex items only for project*/
+     margin: 70px 70px;
+     padding-bottom: 50px;
+     display: flex;
+     flex-direction: column;
+     width: 304px;  
+    }
+
+      .projectImg { 
+        width: 304px; 
+        height: 228px; 
+        border: 1px solid black;
+      }
+         .projectText {
+            margin-top: 35px;
+          }
+
+button {
+  background-color: #F7F5EF;
+  color:black;
+  font-size: 16px;
+  width: 136px;
+  height: 44px;
+  padding: 8px;
+  Font-family: Lora;
+  box-sizing: border-box;
+  border: 1px solid black;
+  margin-top: 30px;
+}
+
+button:hover {
+  background: #616057;
+  color: fff;
+}
+
+
+
+/*SKILL SECTION */
+
+.skillImg {
+  width: 114px;
+  height: 70px;
+  position: absolute;
+  right: 30%;
+top: -70px;
+
+}
+
+.handshakeImg {
+  width: 100x;
+  height: 50px;
+  position: absolute;
+  right: 35%;
+  top: -55px;
+
+}
+
+#skillsSection {
+  background-color: #F0EBDE;
+}
+
+#myskillsHeading {
+  text-align: center;
+  padding-top: 75px;  
+  padding-bottom: 50px;
+}
+
+.flex_item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  margin: 70px 70px;
+  padding-bottom: 50px;
+  width: 304px;  
+
+}
+
+
+/*FOOTER SECITON */
+
+
+  footer {
+    background-color: #F7F5EF;
+
+    color: black;
+  }
+  footer ul {
+    list-style: none;
+    padding-bottom: 50px;
+    text-align: center;
+
+  }
+
+  footer li {
+    display: inline-block;
+    padding: 0px 7px;
+  }
+
+  #sendMemessageHeading { 
+    padding: 50px 370px;
+   
+
+
+  }
+
+.contactform .form-row { 
+    padding-bottom: 15px;   
+    padding-left: 370px;
+    
+
+    
+}
+
+.contactform label {
+    display: block;
+     
+}
+
+.contactform input[type="text"], .contactform textarea{
+  padding: 8px;
+  width: 30%;
+ 
+}
+
+.contactform button { 
+  background-color: #000;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  font-family: lora;
+  margin-left: 370px;
+}
+
+.contactform button:hover {
+  background-color: #616057;
+  color: #fff;
+  border: 1px solid #000;
+
+} 
+
+
+/*HELLO SECTION*/
+
+@media only screen and (max-width: 600px) {
+.heroImg {  /*top Section*/
+  background-color: #F7F5EF;
+  display: flex;
+    flex-direction: column;
+ width: 200%;
+ padding: 10px;
+
+
+}
+
+
+  @media only screen and (max-width: 600px) {
+  .maggiePatel {  /*Image of Me*/
+    padding: 50px;
+}
+
+
+
+
+
+/*ABOUT ME SECTION*/
+@media only screen and (max-width: 600px) {
+#Container {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  width: 200%;
+  padding: 10px;
+
+  background-color: #F0EBDE;
+}
+
+@media only screen and (max-width: 600px) {
+.colorfulImg {
+
+padding: 100px;
+
+}
+
+@media only screen and (max-width: 600px) {
+.AboutmeBox {
+  border: 1px solid black;
+  top: 1700px;
+ right: 700px;
+ margin: 5px;
+  background-color:#F7F5EF;
+  padding: 10px;
+  width: 70%;
+
+
+
+}
+
+/*PROJECT SECTION*/
+
+
+@media only screen and (max-width: 600px) {
+  .flex {   /*Parent Container for projectCard and flex items for Skills flex items*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media only screen and (max-width: 600px) {
+  .projectCard {    /*flex items only for project*/
+    flex-direction: column;
+    align-items: center;
+   }
+
+   @media only screen and (max-width: 600px) { 
+
+     }
+
+     @media only screen and (max-width: 600px) { 
+   
