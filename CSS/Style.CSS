@@ -1,15 +1,19 @@
 body {
-    margin: 0;
     font-family: Playfair Display; 
+    overflow-x: hidden;
+
   }
 
 h1 { font-size: 72px;
      color: #616057;}
 
 h2 { font-size: 40px;
-      color: #616057}
+      color: #616057;
+}
 h3 { font-size: 22px;
      color:#616057;
+     font-family: Playfair-Display;
+     font-weight: normal;
 }
 
 h4 { font-size: 18px;}
@@ -21,17 +25,25 @@ p {
 }
   header {
     background-color: #F0EBDE;
-    padding: 15px;
+    padding: 40px;
+    height: 15px;
   }
 
   header li {
     display: inline-block;
-    padding: 0px 5px;
+    padding: 0px 10px;
     position: relative; 
+    bottom: 15px;
     left: 40%;
 
   }
- 
+  #logo {
+    margin-left: 10px;
+    top: 25px;
+    position: absolute; 
+
+
+  }
   
   .heroImg {  /*top Section*/
     background-color: #F7F5EF;
@@ -52,14 +64,14 @@ p {
   
   }
 
-
-
   /* ABOUT ME Section*/
 
   #Container {
     top: 0; 
     left: 0; 
     background-color: #F0EBDE;
+
+
   }
 
   .colorfulImg {
@@ -80,6 +92,7 @@ padding: 100px;
     left: 40%;
     background-color:#F7F5EF;
     padding: 50px;
+  
 
   }
 
@@ -87,13 +100,15 @@ padding: 100px;
   
 #row {
     background-color: #F7F5EF;
+
 }
 
 #myprojectsHeading{
   color: #666;
   padding-top: 75px;
-
   text-align: center;
+
+
 }
 
 .flex {   /*Parent Container for projectCard and flex items for Skills flex items*/
@@ -101,6 +116,7 @@ padding: 100px;
   align-items: flex-start;
   padding: 10px 70px;
   justify-content: center;
+
 }
 
   .projectCard {    /*flex items only for project*/
@@ -187,54 +203,44 @@ top: -70px;
 
   footer {
     background-color: #F7F5EF;
-
     color: black;
   }
-  footer ul {
-    list-style: none;
-    padding-bottom: 50px;
-    text-align: center;
 
-  }
-
-  footer li {
-    display: inline-block;
-    padding: 0px 7px;
-  }
 
   #sendMemessageHeading { 
     padding: 50px 370px;
-   
+text-align: center;
+margin-top: 25px;
 
 
   }
 
 .contactform .form-row { 
     padding-bottom: 15px;   
-    padding-left: 370px;
-    
-
+    padding-left: 350px;
     
 }
 
 .contactform label {
     display: block;
+    margin-left: 260px;
      
 }
 
-.contactform input[type="text"], .contactform textarea{
+.contactform input[type="text"], .contactform textarea {
   padding: 8px;
   width: 30%;
+  margin-left: 260px;
  
 }
 
 .contactform button { 
   background-color: #000;
   color: #fff;
-  padding: 10px 15px;
   border: none;
   font-family: lora;
-  margin-left: 370px;
+  margin-left: 45%;
+
 }
 
 .contactform button:hover {
@@ -319,10 +325,3 @@ padding: 100px;
     flex-direction: column;
     align-items: center;
    }
-
-   @media only screen and (max-width: 600px) { 
-
-     }
-
-     @media only screen and (max-width: 600px) { 
-   
